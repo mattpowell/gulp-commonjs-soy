@@ -1,0 +1,1 @@
+var _=exports=module.exports={},soy=function(e){return e=require("soyutils/soy.js")}(soy),soydata=function(e){return e=require("soyutils/soydata.js")}(soydata);_.example=function(e,o){return soydata.VERY_UNSAFE.ordainSanitizedHtml("Hello World.")},_.example.soyTemplateName="_.example";

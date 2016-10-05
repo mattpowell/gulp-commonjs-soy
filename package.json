@@ -1,14 +1,28 @@
 {
   "name": "gulp-commonjs-soy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Compile Closure/Soy Templates and convert to CommonJs via Gulp",
+  "keywords": [
+    "gulpplugin"
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests"
   },
   "author": "Matt Powell",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattpowell/gulp-commonjs-soy.git"
+  },
   "dependencies": {
+    "commonjs-soy": "0.0.1",
+    "gulp-util": "^3.0.7",
     "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0",
+    "vinyl": "^2.0.0"
   }
 }
