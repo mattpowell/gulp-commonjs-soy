@@ -23,7 +23,7 @@ module.exports = function (opts) {
     }, function(err, template) {
 
       if (err) {
-        stream.emit('error', new Gutil.PluginError('gulp-commonjs-soy', err, {
+        this.emit('error', new Gutil.PluginError('gulp-commonjs-soy', err, {
           fileName: file.path
         }));
       }
