@@ -1,6 +1,6 @@
 {
   "name": "gulp-commonjs-soy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Compile Closure/Soy Templates and convert to CommonJs via Gulp",
   "keywords": [
     "gulpplugin"
@@ -16,7 +16,7 @@
     "url": "https://github.com/mattpowell/gulp-commonjs-soy.git"
   },
   "dependencies": {
-    "commonjs-soy": "0.0.1",
+    "commonjs-soy": "0.0.2",
     "gulp-util": "^3.0.7",
     "through2": "^2.0.1"
   },
